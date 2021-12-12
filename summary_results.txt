@@ -1,0 +1,8 @@
+Résumé des résultats:
+
+Un teacher simplement optimal fait deux types d'erreurs :
+
+1) faire un démonstration du goal (1,2) lorsqu'on lui demande de faire le goal (1). Dans ce cas le learner peut se tromper sur le goal à atteindre après la démonstration, ce qui peut engendrer des problèmes (cf notebook).
+2) faire des démonstrations qui ne permettent pas de discerner le goal attendu après le premier step. Ceci laisse une ambiguité sur le goal après la première action alors que cette ambiguité pourrait être levée, ce qui serait favorable pour le learner.
+
+La capture d'écran montre les deux problèmes présents chez le teacher optimal et les deux problèmes résolus chez le teacher pédagogique (goal exact à atteindre pour être récompensé + récompense si lui même pouvait prédire le goal après la première action (ToM bayésienne)).
