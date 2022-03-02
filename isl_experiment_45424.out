@@ -1,0 +1,362 @@
+Loading pytorch-gpu/py3/1.4.0
+  Loading requirement: gcc/8.3.1 cuda/10.1.1 nccl/2.4.8-1-cuda
+    cudnn/10.1-v7.5.1.10 openmpi/4.0.2-cuda
+Logging to output_learner/2022-02-26 16:02:22_FetchManipulate3Objects-v0_gnn_per_object
+{'seed': 965109, 'num_workers': 24, 'demo_length': 20, 'cuda': True, 'algo': 'semantic', 'agent': 'SAC', 'n_blocks': 3, 'masks': False, 'mask_application': 'hindsight', 'biased_init': True, 'start_biased_init': 10, 'n_epochs': 2, 'n_cycles': 2, 'n_batches': 30, 'num_rollouts_per_mpi': 2, 'batch_size': 256, 'multi_criteria_her': True, 'replay_strategy': 'future', 'replay_k': 4, 'reward_type': 'per_object', 'self_eval_prob': 0.1, 'gamma': 0.98, 'alpha': 0.2, 'automatic_entropy_tuning': True, 'action_l2': 1, 'lr_actor': 0.001, 'lr_critic': 0.001, 'lr_entropy': 0.001, 'polyak': 0.95, 'freq_target_update': 2, 'evaluations': True, 'save_freq': 1, 'save_dir': 'output_learner/', 'buffer_size': 1000000, 'multihead_buffer': False, 'clip_obs': 5, 'normalize_goal': False, 'clip_range': 5, 'architecture': 'gnn', 'variant': 1, 'aggregation_fct': 'max', 'readout_fct': 'sum', 'n_test_rollouts': 1, 'pedagogical_teacher': False, 'learner_from_demos': True, 'teacher_mode': 'pedagogical', 'demos_vs_exp': 0.5, 'bc': False, 'sqil': True, 'sil': False, 'pragmatic_learner': True, 'illustrative_example': False, 'compute_statistically_significant_results': True, 'predictability': True, 'reachability': True, 'learner_to_test': '', 'env_name': 'FetchManipulate3Objects-v0'}
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+
+
+Epoch #0
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+0.0625 PREDICTION SUCCESS RATE
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+valid goal, we add
+valid goal, we add
+valid goal, we add
+valid goal, we add
+valid goal, we add
+0.041666666666666664 PREDICTION SUCCESS RATE
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+	Running eval ..
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+------------------------------------
+| Av_Rew_1           | 0.083333336 |
+| Av_Rew_2           | 0.0         |
+| Av_Rew_3           | 0.0         |
+| Av_Rew_4           | 0.0         |
+| Av_Rew_5           | 0.0         |
+| Av_Rew_6           | 0.0         |
+| Eval_SR_1          | 0.083333336 |
+| Eval_SR_2          | 0.0         |
+| Eval_SR_3          | 0.0         |
+| Eval_SR_4          | 0.0         |
+| Eval_SR_5          | 0.0         |
+| Eval_SR_6          | 0.0         |
+| episodes           | 96          |
+| epoch              | 0           |
+| global_sr          | 0.013888889 |
+| nb_discovered      | 0           |
+| t_epoch            | 11.4        |
+| t_eval             | 4.31        |
+| t_goal_sampler     | 5.05        |
+| t_gs_update        | 1.77        |
+| t_norm_update      | 0.0234      |
+| t_policy_train     | 2.16        |
+| t_policy_train_bc  | 0           |
+| t_policy_train_sil | 0           |
+| t_rollout          | 2.35        |
+| t_store            | 0.000303    |
+| t_total            | 23.7        |
+------------------------------------
+	Epoch #0: SR: 0.013888888992369175
+
+
+Epoch #1
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+0.0 PREDICTION SUCCESS RATE
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+0.020833333333333332 PREDICTION SUCCESS RATE
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+	Running eval ..
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+------------------------------------
+| Av_Rew_1           | 0.16666667  |
+| Av_Rew_2           | 0.0         |
+| Av_Rew_3           | 0.0         |
+| Av_Rew_4           | 0.0         |
+| Av_Rew_5           | 0.0         |
+| Av_Rew_6           | 0.0         |
+| Eval_SR_1          | 0.16666667  |
+| Eval_SR_2          | 0.0         |
+| Eval_SR_3          | 0.0         |
+| Eval_SR_4          | 0.0         |
+| Eval_SR_5          | 0.0         |
+| Eval_SR_6          | 0.0         |
+| episodes           | 192         |
+| epoch              | 1           |
+| global_sr          | 0.027777778 |
+| nb_discovered      | 0           |
+| t_epoch            | 9.9         |
+| t_eval             | 4.7         |
+| t_goal_sampler     | 4.58        |
+| t_gs_update        | 0.92        |
+| t_norm_update      | 0.015       |
+| t_policy_train     | 2.14        |
+| t_policy_train_bc  | 0           |
+| t_policy_train_sil | 0           |
+| t_rollout          | 2.25        |
+| t_store            | 0.00032     |
+| t_total            | 38.6        |
+------------------------------------
+	Epoch #1: SR: 0.02777777798473835
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+True
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.0 Mean predictability on this run.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.0 Mean predictability on this run.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.02857142857142857 Mean predictability on this run.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.0 Mean predictability on this run.
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.02857142857142857 Mean predictability on this run.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.02857142857142857 Mean predictability on this run.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.0 Mean predictability on this run.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.0 Mean predictability on this run.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.0 Mean predictability on this run.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.02857142857142857 Mean predictability on this run.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.0 Mean predictability on this run.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.02857142857142857 Mean predictability on this run.
+Success for trajectory, computing pedagogical reward.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.0 Mean predictability on this run.
+Success for trajectory, computing pedagogical reward.
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.05714285714285714 Mean predictability on this run.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.0 Mean predictability on this run.
+Success for trajectory, computing pedagogical reward.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.02857142857142857 Mean predictability on this run.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.0 Mean predictability on this run.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.0 Mean predictability on this run.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.0 Mean predictability on this run.
+Success for trajectory, computing pedagogical reward.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.0 Mean predictability on this run.
+Success for trajectory, computing pedagogical reward.
+[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.08571428571428572 Mean predictability on this run.
+Success for trajectory, computing pedagogical reward.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.0 Mean predictability on this run.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.02857142857142857 Mean predictability on this run.
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] Prediction success on this run.
+0.02857142857142857 Mean predictability on this run.
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+[1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.02857142857142857 Mean success rate on this run.
+[1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.02857142857142857 Mean success rate on this run.
+[1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.02857142857142857 Mean success rate on this run.
+[1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.02857142857142857 Mean success rate on this run.
+[1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.02857142857142857 Mean success rate on this run.
+Success for trajectory, computing pedagogical reward.
+[1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.02857142857142857 Mean success rate on this run.
+[1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.02857142857142857 Mean success rate on this run.
+[1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.02857142857142857 Mean success rate on this run.
+[1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.02857142857142857 Mean success rate on this run.
+[1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.05714285714285714 Mean success rate on this run.
+[1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.05714285714285714 Mean success rate on this run.
+[1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.05714285714285714 Mean success rate on this run.
+[1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.05714285714285714 Mean success rate on this run.
+Pedagogical Reward is NEGATIVE!
+[1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.05714285714285714 Mean success rate on this run.
+[1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.05714285714285714 Mean success rate on this run.
+[1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.05714285714285714 Mean success rate on this run.
+[1 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.08571428571428572 Mean success rate on this run.
+[1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.02857142857142857 Mean success rate on this run.
+[1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.05714285714285714 Mean success rate on this run.
+[1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0] Successes on this run.
+0.05714285714285714 Mean success rate on this run.
+[1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.08571428571428572 Mean success rate on this run.
+[1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.08571428571428572 Mean success rate on this run.
+[1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.05714285714285714 Mean success rate on this run.
+[1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] Successes on this run.
+0.02857142857142857 Mean success rate on this run.
+Predictability:0.015476190476190477
+Reachability:0.047619047619047616

@@ -1,0 +1,534 @@
+Loading pytorch-gpu/py3/1.4.0
+  Loading requirement: gcc/8.3.1 cuda/10.1.1 nccl/2.4.8-1-cuda
+    cudnn/10.1-v7.5.1.10 openmpi/4.0.2-cuda
+Logging to output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object
+{'seed': 136414, 'num_workers': 24, 'demo_length': 20, 'cuda': True, 'algo': 'semantic', 'agent': 'SAC', 'n_blocks': 3, 'masks': False, 'mask_application': 'hindsight', 'biased_init': True, 'start_biased_init': 10, 'n_epochs': 2, 'n_cycles': 2, 'n_batches': 30, 'num_rollouts_per_mpi': 2, 'batch_size': 256, 'multi_criteria_her': True, 'replay_strategy': 'future', 'replay_k': 4, 'reward_type': 'per_object', 'self_eval_prob': 0.1, 'gamma': 0.98, 'alpha': 0.2, 'automatic_entropy_tuning': True, 'action_l2': 1, 'lr_actor': 0.001, 'lr_critic': 0.001, 'lr_entropy': 0.001, 'polyak': 0.95, 'freq_target_update': 2, 'evaluations': True, 'save_freq': 10, 'save_dir': 'output_learner/', 'buffer_size': 1000000, 'multihead_buffer': False, 'clip_obs': 5, 'normalize_goal': False, 'clip_range': 5, 'architecture': 'gnn', 'variant': 1, 'aggregation_fct': 'max', 'readout_fct': 'sum', 'n_test_rollouts': 1, 'pedagogical_teacher': False, 'learner_from_demos': True, 'teacher_mode': 'pedagogical', 'demos_vs_exp': 0.5, 'bc': False, 'sqil': True, 'sil': False, 'pragmatic_learner': True, 'illustrative_example': False, 'compute_statistically_significant_results': True, 'predictability': True, 'reachability': True, 'learner_to_test': '', 'env_name': 'FetchManipulate3Objects-v0'}
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+
+
+Epoch #0
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+0.041666666666666664 PREDICTION SUCCESS RATE
+Pedagogical Reward is NEGATIVE!
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+valid goal, we add
+valid goal, we add
+valid goal, we add
+valid goal, we add
+0.020833333333333332 PREDICTION SUCCESS RATE
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+valid goal, we add
+	Running eval ..
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+------------------------------------
+| Av_Rew_1           | 0.16666667  |
+| Av_Rew_2           | 0.0         |
+| Av_Rew_3           | 0.0         |
+| Av_Rew_4           | 0.0         |
+| Av_Rew_5           | 0.0         |
+| Av_Rew_6           | 0.0         |
+| Eval_SR_1          | 0.16666667  |
+| Eval_SR_2          | 0.0         |
+| Eval_SR_3          | 0.0         |
+| Eval_SR_4          | 0.0         |
+| Eval_SR_5          | 0.0         |
+| Eval_SR_6          | 0.0         |
+| episodes           | 96          |
+| epoch              | 0           |
+| global_sr          | 0.027777778 |
+| nb_discovered      | 0           |
+| t_epoch            | 12.8        |
+| t_eval             | 4.73        |
+| t_goal_sampler     | 6.39        |
+| t_gs_update        | 0.0234      |
+| t_norm_update      | 0.0235      |
+| t_policy_train     | 2.02        |
+| t_policy_train_bc  | 0           |
+| t_policy_train_sil | 0           |
+| t_rollout          | 4.29        |
+| t_store            | 0.00032     |
+| t_total            | 25.5        |
+------------------------------------
+	Epoch #0: SR: 0.02777777798473835
+
+
+Epoch #1
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+0.08333333333333333 PREDICTION SUCCESS RATE
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+valid goal, we add
+0.125 PREDICTION SUCCESS RATE
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+Pedagogical Reward is NEGATIVE!
+	Running eval ..
+Success for trajectory, computing pedagogical reward.
+Pedagogical Reward is NEGATIVE!
+-------------------------------------
+| Av_Rew_1           | 0.0          |
+| Av_Rew_2           | 0.041666668  |
+| Av_Rew_3           | 0.0          |
+| Av_Rew_4           | 0.0          |
+| Av_Rew_5           | 0.0          |
+| Av_Rew_6           | 0.0          |
+| Eval_SR_1          | 0.0          |
+| Eval_SR_2          | 0.041666668  |
+| Eval_SR_3          | 0.0          |
+| Eval_SR_4          | 0.0          |
+| Eval_SR_5          | 0.0          |
+| Eval_SR_6          | 0.0          |
+| episodes           | 192          |
+| epoch              | 1            |
+| global_sr          | 0.0069444445 |
+| nb_discovered      | 0            |
+| t_epoch            | 10.1         |
+| t_eval             | 4.38         |
+| t_goal_sampler     | 4.81         |
+| t_gs_update        | 0.794        |
+| t_norm_update      | 0.0202       |
+| t_policy_train     | 2.03         |
+| t_policy_train_bc  | 0            |
+| t_policy_train_sil | 0            |
+| t_rollout          | 2.47         |
+| t_store            | 0.000346     |
+| t_total            | 41.3         |
+-------------------------------------
+	Epoch #1: SR: 0.0069444444961845875
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Belek sur le False pour pedagogical teacher
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+    run_test_mpi(args, logdir)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+    policy.load(model_path, args)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+    run_test_mpi(args, logdir)
+    run_test_mpi(args, logdir)
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+    run_test_mpi(args, logdir)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+    run_test_mpi(args, logdir)
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+    run_test_mpi(args, logdir)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+    run_test_mpi(args, logdir)
+    run_test_mpi(args, logdir)
+    run_test_mpi(args, logdir)
+    policy.load(model_path, args)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+    run_test_mpi(args, logdir)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+    policy.load(model_path, args)
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+    policy.load(model_path, args)
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+    policy.load(model_path, args)
+    policy.load(model_path, args)
+    run_test_mpi(args, logdir)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+    policy.load(model_path, args)
+    policy.load(model_path, args)
+Traceback (most recent call last):
+  File "train_learner.py", line 329, in <module>
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+    policy.load(model_path, args)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+    run_test_mpi(args, logdir)
+    policy.load(model_path, args)
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+    run_test_mpi(args, logdir)
+    run_test_mpi(args, logdir)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+    run_test_mpi(args, logdir)
+    policy.load(model_path, args)
+    run_test_mpi(args, logdir)
+    run_test_mpi(args, logdir)
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+    run_test_mpi(args, logdir)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+    run_test_mpi(args, logdir)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+    policy.load(model_path, args)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+    policy.load(model_path, args)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+    run_test_mpi(args, logdir)
+    run_test_mpi(args, logdir)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+    policy.load(model_path, args)
+    policy.load(model_path, args)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+    policy.load(model_path, args)
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+    policy.load(model_path, args)
+    run_test_mpi(args, logdir)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+    policy.load(model_path, args)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+    policy.load(model_path, args)
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+    policy.load(model_path, args)
+    policy.load(model_path, args)
+    run_test_mpi(args, logdir)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+    with _open_file_like(f, 'rb') as opened_file:
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+    policy.load(model_path, args)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+    with _open_file_like(f, 'rb') as opened_file:
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+    with _open_file_like(f, 'rb') as opened_file:
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+    policy.load(model_path, args)
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+    return _open_file(name_or_buffer, mode)
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+    return _open_file(name_or_buffer, mode)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+    run_test_mpi(args, logdir)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+    return _open_file(name_or_buffer, mode)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+    return _open_file(name_or_buffer, mode)
+    return _open_file(name_or_buffer, mode)
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/test_learner_mpi.py", line 136, in run_test_mpi
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+    return _open_file(name_or_buffer, mode)
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+    super(_open_file, self).__init__(open(name, mode))
+    with _open_file_like(f, 'rb') as opened_file:
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+    return _open_file(name_or_buffer, mode)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+    super(_open_file, self).__init__(open(name, mode))
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+    policy.load(model_path, args)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+    super(_open_file, self).__init__(open(name, mode))
+    super(_open_file, self).__init__(open(name, mode))
+    with _open_file_like(f, 'rb') as opened_file:
+    with _open_file_like(f, 'rb') as opened_file:
+    return _open_file(name_or_buffer, mode)
+  File "/gpfsdswork/projects/rech/kcr/uhx75if/sqil_batch/gangstr_predicates_instructions/rl_modules/rl_agent.py", line 391, in load
+    with _open_file_like(f, 'rb') as opened_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+    with _open_file_like(f, 'rb') as opened_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+    super(_open_file, self).__init__(open(name, mode))
+    super(_open_file, self).__init__(open(name, mode))
+    return _open_file(name_or_buffer, mode)
+    with _open_file_like(f, 'rb') as opened_file:
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+    return _open_file(name_or_buffer, mode)
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+    return _open_file(name_or_buffer, mode)
+    return _open_file(name_or_buffer, mode)
+    return _open_file(name_or_buffer, mode)
+    super(_open_file, self).__init__(open(name, mode))
+    o_mean, o_std, g_mean, g_std, actor, critic = torch.load(model_path, map_location=lambda storage, loc: storage)
+    return _open_file(name_or_buffer, mode)
+    return _open_file(name_or_buffer, mode)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+    super(_open_file, self).__init__(open(name, mode))
+    return _open_file(name_or_buffer, mode)
+    return _open_file(name_or_buffer, mode)
+    super(_open_file, self).__init__(open(name, mode))
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 588, in load
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+    with _open_file_like(f, 'rb') as opened_file:
+    return _open_file(name_or_buffer, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+    super(_open_file, self).__init__(open(name, mode))
+    super(_open_file, self).__init__(open(name, mode))
+    super(_open_file, self).__init__(open(name, mode))
+    with _open_file_like(f, 'rb') as opened_file:
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+    super(_open_file, self).__init__(open(name, mode))
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+    super(_open_file, self).__init__(open(name, mode))
+    return _open_file(name_or_buffer, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 253, in _open_file_like
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+    return _open_file(name_or_buffer, mode)
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+    return _open_file(name_or_buffer, mode)
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+    super(_open_file, self).__init__(open(name, mode))
+  File "/gpfslocalsup/pub/anaconda-py3/2019.03/envs/pytorch-gpu-1.4.0/lib/python3.7/site-packages/torch/serialization.py", line 234, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+FileNotFoundError: [Errno 2] No such file or directory: 'output_learner/2022-02-26 16:00:13_FetchManipulate3Objects-v0_gnn_per_object/models/model_1.pt'
+srun: error: r13i4n3: task 10: Exited with exit code 1
+srun: Terminating job step 45411.0
+slurmstepd: error: *** STEP 45411.0 ON r6i5n8 CANCELLED AT 2022-02-26T16:00:50 ***
+srun: error: r14i1n2: task 18: Exited with exit code 1
+srun: error: r13i4n4: task 11: Exited with exit code 1
+srun: error: r14i1n0: task 16: Exited with exit code 1
+srun: error: r14i0n8: task 15: Exited with exit code 1
+srun: error: r13i2n7: task 8: Exited with exit code 1
+srun: error: r14i1n3: task 19: Exited with exit code 1
+srun: error: r13i4n6: task 13: Exited with exit code 1
+srun: error: r13i4n5: task 12: Exited with exit code 1
+srun: error: r13i4n2: task 9: Exited with exit code 1
+srun: error: r14i1n4: task 20: Exited with exit code 1
+srun: error: r14i1n1: task 17: Exited with exit code 1
+srun: error: r14i1n5: task 21: Exited with exit code 1
+srun: error: r12i7n5: task 5: Exited with exit code 1
+srun: error: r13i2n6: task 7: Exited with exit code 1
+srun: error: r10i6n5: task 2: Exited with exit code 1
+srun: error: r12i7n3: task 4: Exited with exit code 1
+srun: error: r14i0n4: task 14: Exited with exit code 1
+srun: error: r11i3n5: task 3: Exited with exit code 1
+srun: error: r14i6n3: task 23: Exited with exit code 1
+srun: error: r6i6n0: task 1: Exited with exit code 1
+srun: error: r14i1n6: task 22: Exited with exit code 1
+srun: error: r13i0n1: task 6: Exited with exit code 1
+srun: error: r6i5n8: task 0: Terminated
+srun: Force Terminated job step 45411.0
